@@ -41,8 +41,8 @@ public class Main {
         ((Entrenador) delBosque).planificarEntrenamiento();
 
         //ENTREVISTA
-        System.out.print("\nEntrevista: Solo el futbolista tiene el método para planificar un entrenamiento:");
-        System.out.print(iniesta.nombre + "" + iniesta.getApellidos()) + " -> ");
+        System.out.println("\nEntrevista: Solo el futbolista tiene el método para dar una entrevista:");
+        System.out.print(iniesta.getNombre() + " " + iniesta.getApellidos() + " -> ");
         ((Futbolista) iniesta).entrevista();
 
         //MASAJE
