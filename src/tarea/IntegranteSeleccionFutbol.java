@@ -1,4 +1,9 @@
 package tarea;
 
-public class IntegranteSeleccionFutbol {
+public interface IntegranteSeleccionFutbol {
+
+    public void concentrarse();
+    void viajar();
+    void entrenar();
+    void jugarPartido();
 }
