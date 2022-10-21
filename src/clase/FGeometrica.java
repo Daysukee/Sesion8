@@ -1,3 +1,5 @@
+package clase;
+
 import java.util.Scanner;
 
 public class FGeometrica {
